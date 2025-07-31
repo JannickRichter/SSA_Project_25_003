@@ -1,0 +1,69 @@
+.trans-box-btn-shown {
+    opacity: 1;
+    transform: translate(0vw);
+}
+
+.leistungen-peak-image-wrapper-cms-selected {
+    width: 52%;
+    filter: none;
+    cursor: auto;;
+}
+
+.reference-box-right {
+    transform: translate(55%, 0);
+}
+
+.reference-box-left {
+    transform: translate(-55%, 0);
+}
+
+.reference-box-hidden {
+    display: none;
+    opacity: 0;
+}
+
+.reference-box-evaluation-star-red {
+    background-image: url(https://cdn.prod.website-files.com/64ecf73…/67ed9c2…_bb7361f…_star-red.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reference-box-inner-wrapper {
+    user-select: none;
+    /* Verhindert die Textauswahl */
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+}
+
+.calendly-inline-widget {
+    min-width: 100% !important;
+    height: 100%;
+}
+
+.termin-calendly-innerwrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-nav-burger-menu-wrapper-large {
+        width: 100%;
+        overflow: auto;
+        padding: 10px;
+    }
+
+    .reference-box-right {
+        transform: translate(0%, 0);
+    }
+
+    .calendly-inline-widget {
+        height: 100vh;
+    }
+}
